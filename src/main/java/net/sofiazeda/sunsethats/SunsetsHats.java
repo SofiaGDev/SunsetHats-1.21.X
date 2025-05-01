@@ -2,6 +2,7 @@ package net.sofiazeda.sunsethats;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.sofiazeda.sunsethats.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,5 +13,6 @@ public class SunsetsHats implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
